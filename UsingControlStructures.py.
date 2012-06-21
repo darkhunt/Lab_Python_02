@@ -1,0 +1,57 @@
+part ii
+ques 5.
+
+theInput = raw_input("Enter an integer: ")
+#
+
+theInput = int(theInput)
+if (theInput % 2 == 0):
+    print"even"
+else:
+    print"odd"
+
+
+print"................................"
+
+
+6. personsAge = input(“Enter an age:")
+people_startprimary_school= 5
+legal_voting_age = 18
+age_can_be_president = 45
+official_retirement_age= 60
+
+
+personsAge = raw_input("Enter an age:")
+personsAge= int(personsAge)
+if personsAge<(people_startprimary_school):
+     print"too young"
+elif personsAge>=(legal_voting_age):
+    print"remember to vote"
+elif personsAge>=(official_retirement_age):
+    print"too old"
+elif personsAge>=(age_can_be_president):
+    print"vote for me"
+else:
+    if personsAge<=(age_can_be_president):
+            print"you can't be president"
+
+
+7.i=40
+while i>0:
+    if i%3==0:
+        print i,
+    i=i-1
+
+8.for i in range(6,30):
+    if (i %2!=0):
+        if(1%3!=0):
+            if(i%5!=0):
+                print i, " , "
+
+9.n=1
+while(n):
+    a=79*n
+    if(a%97==1):
+      print"the smallest positive integer n such that 79*n:",n
+      break
+    n=n+1
